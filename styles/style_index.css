@@ -1,0 +1,27 @@
+body {
+    color: #5263ff;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.page {
+    min-height: 100vh;
+    background: #1f1f1f;
+}
+
+.menu-bas {
+    display: flex;
+    position: fixed;
+    bottom: 1rem;
+    background-color: #1c2536cc;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 20px;
+}
+
+.lien-actif {
+    transform: scale(1.2,1.2);
+}
