@@ -65,7 +65,7 @@ header {
     padding-top: 100px;
 }
 
-.home>h2{
+.home>h2 {
     margin: 10px;
 }
 
@@ -73,11 +73,11 @@ header {
     color: #babec4;
 }
 
-.bouton{
+.bouton {
     padding: 40px;
 }
 
-button{
+button {
     margin: 20px;
     border: #5263ff 2px solid;
     padding: 8px 16px;
@@ -87,11 +87,13 @@ button{
     transition: 0.3s;
     cursor: pointer;
 }
-button:last-child{
+
+button:last-child {
     background-color: #5263ff;
     color: #1f1f1f;
 }
-button:hover{
+
+button:hover {
     background-color: #5263ff;
     color: #1f1f1f;
     transition: 0.3s;
@@ -103,11 +105,95 @@ button:hover{
     border: 3px solid #5263ff;
 }
 
-.about{
-    text-align: center ;
+.about {
+    text-align: center;
+    padding-top: 75px;
 }
 
-.about>h4{
+.about>h4 {
     color: #babec4;
-
 }
+
+
+
+
+.competence {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.competence>h4 {
+    color: #babec4;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.gauche{
+    background-color: #1c2536cc;
+    border-radius: 4rem;
+    backdrop-filter: blur(10px);
+    padding: 1rem 2.25rem;
+    width: 50%;
+}
+
+.case {
+    background-color: #27334acc;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    min-width: fit-content;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+
+.barre {
+    height: 20px;
+    width: 100%;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.taillephp {
+    height: 20px;
+    width: 60%;
+    background-color: #5263ff;
+    border-radius: 10px;
+}
+
+.taillesql{
+    height: 20px;
+    width: 60%;
+    background-color: #5263ff;
+    border-radius: 10px;
+}
+
+.taillehtml{
+    height: 20px;
+    width: 80%;
+    background-color: #5263ff;
+    border-radius: 10px;
+}
+
+.taillecss{
+    height: 20px;
+    width: 75%;
+    background-color: #5263ff;
+    border-radius: 10px;
+}
+
+.taillejs{
+    height: 20px;
+    width: 70%;
+    background-color: #5263ff;
+    border-radius: 10px;
+}
+
