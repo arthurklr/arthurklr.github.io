@@ -9,7 +9,7 @@ document.querySelectorAll(".element").forEach(e => {
     });
 });
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
     if (window.scrollY > 50) {
         header.classList.add("flou");
@@ -17,3 +17,6 @@ window.addEventListener("scroll", function() {
         header.classList.remove("flou");
     }
 });
+
+
+
