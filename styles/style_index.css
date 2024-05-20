@@ -92,6 +92,10 @@ button:last-child {
     background-color: #5263ff;
     color: #1f1f1f;
 }
+button:last-child:hover {
+    background-color: #1f1f1f;
+    color: #5263ff;
+}
 
 button:hover {
     background-color: #5263ff;
