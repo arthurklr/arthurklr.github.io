@@ -201,3 +201,17 @@ button:hover {
     border-radius: 10px;
 }
 
+.portfolio {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.portfolio>h4{
+    color: #babec4;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 75px;
+}
+
