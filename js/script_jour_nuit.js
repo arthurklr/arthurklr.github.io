@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const page = document.querySelector('.page');
     const header = document.querySelector('header')
     const home = document.querySelector('.home')
+    const lien = document.querySelector('.block')
 
     icon.addEventListener('click', function () {
         icon.classList.toggle('nuit');
@@ -11,10 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
             header.classList.add('clair')
             page.classList.add('clair');
             home.classList.add('clair')
+            lien.classList.add('lien_clair')
         } else {
             page.classList.remove('clair');
             header.classList.remove('clair')
             home.classList.remove('clair')
+            lien.classList.remove('lien_clair')
         }
     });
 
