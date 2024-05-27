@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector('header')
     const home = document.querySelector('.home')
     const lien = document.querySelector('.block')
+    const bouton = document.querySelectorAll('.bouton>a>button')
 
     icon.addEventListener('click', function () {
         icon.classList.toggle('nuit');
@@ -13,11 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
             page.classList.add('clair');
             home.classList.add('clair')
             lien.classList.add('lien_clair')
+            bouton.classList.add('bouton_clair')
         } else {
             page.classList.remove('clair');
             header.classList.remove('clair')
             home.classList.remove('clair')
             lien.classList.remove('lien_clair')
+            bouton.classList.remove('bouton_clair')
         }
     });
 
