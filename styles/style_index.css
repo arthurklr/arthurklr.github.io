@@ -270,6 +270,10 @@ button:hover {
     color: #1f1f1f;
 }
 
+.lien_clair{
+    background-color: #1f1f1f;
+}
+
 .bouton_clair{
     color: #fff;
 }
