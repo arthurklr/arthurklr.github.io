@@ -69,8 +69,23 @@ header {
     /* Ajoute une transition pour le changement de couleur de fond */
 }
 
+.conteneur-bas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.block{
+    display: flex;
+    flex-direction: column;
+    background-color: #eceefc;
+    border-radius: 10px;
+}
 
+.block>a>img{
+    width: 40px;
+}
 
 
 .menu-bas {
