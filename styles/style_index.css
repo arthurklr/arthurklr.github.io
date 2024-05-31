@@ -175,19 +175,24 @@ button:hover {
 
 .timeline {
     min-height: 25vh;
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
 }
 
 .cercle-about {
     background-color: #fff;
-    height: 10vw; /* Taille du cercle réactive */
-    width: 10vw; /* Taille du cercle réactive */
+    height: 10vw;
+    width: 10vw; 
     border-radius: 50%;
     display: flex;
-    flex-direction: column; /* Organise les enfants en colonne */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Assure que l'image ne déborde pas du cercle */
-    text-align: center; /* Centre le texte */
+    overflow: hidden; 
+    text-align: center; 
 }
 
 .cercle-about img {
