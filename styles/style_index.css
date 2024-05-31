@@ -158,6 +158,12 @@ button:hover {
     border: 3px solid #5263ff;
 }
 
+
+
+
+
+
+
 .about {
     text-align: center;
     padding-top: 75px;
@@ -166,6 +172,47 @@ button:hover {
 .about>h4 {
     color: #babec4;
 }
+
+.timeline {
+    min-height: 25vh;
+}
+
+.cercle-about {
+    background-color: #fff;
+    height: 10vw; /* Taille du cercle réactive */
+    width: 10vw; /* Taille du cercle réactive */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column; /* Organise les enfants en colonne */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Assure que l'image ne déborde pas du cercle */
+    text-align: center; /* Centre le texte */
+}
+
+.cercle-about img {
+    max-width: 70%; 
+    max-height: 70%;
+    object-fit: contain; 
+}
+
+.cercle-about p {
+    margin: 0;
+    padding: 0.5em; 
+    font-size: 1em; 
+    color: #000; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
