@@ -180,6 +180,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin: 2rem auto;
+    gap: 3rem;
 }
 
 .cercle-about {
@@ -206,6 +207,12 @@ button:hover {
     padding: 0.5em; 
     font-size: 1em; 
     color: #000; 
+}
+
+.barre-about{
+    width: 150px;
+    height: 10px;
+    background-color: #fff;
 }
 
 
