@@ -16,6 +16,10 @@ h2 {
     margin: 0;
 }
 
+h3{
+    margin: 0;
+}
+
 h4 {
     margin: 0;
 }
@@ -203,6 +207,12 @@ button:hover {
 }
 
 .cercle-about p {
+    margin: 0;
+    padding: 0.5em; 
+    font-size: 1em; 
+    color: #000; 
+}
+.cercle-about h3 {
     margin: 0;
     padding: 0.5em; 
     font-size: 1em; 
