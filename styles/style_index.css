@@ -186,6 +186,7 @@ button:hover {
 
 .cercle-about {
     background-color: #27334acc;
+    backdrop-filter: blur(10px);
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
