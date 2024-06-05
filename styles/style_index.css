@@ -230,7 +230,10 @@ button:hover {
 }
 
 .conteneur-about{
-    
+    background-color: #27334acc;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
 }
 
 
