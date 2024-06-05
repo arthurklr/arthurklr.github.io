@@ -34,11 +34,9 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    /* Assure que le header est en haut */
     width: 100%;
     transition: 0.4s;
-    z-index: 1000;
-    /* Assure que le header reste au-dessus des autres éléments */
+    z-index: 1;
 }
 
 .flou {
