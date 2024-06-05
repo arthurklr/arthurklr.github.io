@@ -234,6 +234,8 @@ button:hover {
     border-radius: 4rem;
     padding: 1rem 2.25rem;
     backdrop-filter: blur(10px);
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 
