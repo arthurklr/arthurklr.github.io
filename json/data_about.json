@@ -1,26 +1,25 @@
 {
-    "timeline": [
-      {
-        "year": "2023",
-        "content": {
-          "image": "img/diplome.svg",
-          "text": "Baccalauréat général"
-        }
-      },
-      {
-        "year": "2023-2026",
-        "content": {
-          "image": "img/diplome.svg",
-          "text": "BUT MMI"
-        }
-      },
-      {
-        "year": "2024-2025",
-        "content": {
-          "image": "img/web-developer.svg",
-          "text": "Alternant développeur full-stack | S-MEDIA"
-        }
+  "timeline": [
+    {
+      "year": "2023",
+      "content": {
+        "image": "img/diplome.png",
+        "text": "Baccalauréat général"
       }
-    ]
-  }
-  
+    },
+    {
+      "year": "2023-2026",
+      "content": {
+        "image": "img/diplome.png",
+        "text": "BUT MMI"
+      }
+    },
+    {
+      "year": "2024-2025",
+      "content": {
+        "image": "img/web-developer.svg",
+        "text": "Alternant développeur full-stack | S-MEDIA"
+      }
+    }
+  ]
+}
