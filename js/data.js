@@ -17,7 +17,6 @@ const projet ={
         "titre": "Iris",
         "description": "Pour un projet personnel, j'ai décidé de me lancer ce défi : créer une messagerie en ligne 100% automatisé grâce à PHP et à MySQL.",
         "langage": "HTML, CSS, JavaScript, PHP, MySQL",
-        "apprentissage": "Ce projet personnel m'a permis d'approfondir mes connaissances en PHP et de m'imprégnier concrètement des rèègles de sécurité concernant la confidentialité des données ",
-
+        "apprentissage": "Ce projet personnel m'a permis d'approfondir mes connaissances en PHP et de m'imprégner concrètement des rèègles de sécurité concernant la confidentialité des données, mais aussi a sécurité lors du stockage de celle-ci sur la base de données avec des systèmes de Hashage de données en PHP.",
     }
 }
