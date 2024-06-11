@@ -5,12 +5,12 @@ fetch('json/data_projet.json')
         const buttonsContainer = document.getElementById('buttons');
         const projectInfoContainer = document.getElementById('project-info');
 
-        // Create buttons for each category
-        for (const category in data) {
+        // Function to create buttons
+        function createButton(project) {
             const button = document.createElement('button');
-            button.textContent = category;
-            button.addEventListener('click', () => showProjects(data[category]));
-            buttonsContainer.appendChild(button);
+            button.textContent = project.titre_projet;
+            button.addEventListener('click', () => displayProjectInfo(project));
+            return button;
         }
 
         // Function to display projects
@@ -27,10 +27,8 @@ fetch('json/data_projet.json')
                 // If multiple projects, create buttons to choose from
                 for (const projectKey in projects) {
                     const project = projects[projectKey];
-                    const subButton = document.createElement('button');
-                    subButton.textContent = project.titre_projet;
-                    subButton.addEventListener('click', () => displayProjectInfo(project));
-                    projectInfoContainer.appendChild(subButton);
+                    const button = createButton(project);
+                    buttonsContainer.appendChild(button);
                 }
             }
         }
@@ -43,6 +41,24 @@ fetch('json/data_projet.json')
                 <p>Langages utilisés : ${project.langage}</p>
                 <p>Apprentissage : ${project.apprentissage}</p>
             `;
+        }
+
+        // Create buttons for each category
+        for (const category in data) {
+            const projects = data[category];
+            if (Object.keys(projects).length === 1) {
+                // If only one project, directly display its info
+                const projectKey = Object.keys(projects)[0];
+                const project = projects[projectKey];
+                const button = createButton(project);
+                buttonsContainer.appendChild(button);
+            } else {
+                // If multiple projects, create a button for the category
+                const button = document.createElement('button');
+                button.textContent = category;
+                button.addEventListener('click', () => showProjects(projects));
+                buttonsContainer.appendChild(button);
+            }
         }
     })
     .catch(error => console.error('Error fetching data:', error));
