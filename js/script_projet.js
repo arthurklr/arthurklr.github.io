@@ -1,5 +1,5 @@
 // Fetch JSON data
-fetch('js/data.json')
+fetch('json/data_projet.json')
     .then(response => response.json())
     .then(data => {
         const buttonsContainer = document.getElementById('buttons');
