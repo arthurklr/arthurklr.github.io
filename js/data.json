@@ -13,7 +13,7 @@
             "apprentissage": "Cette SAÉ m'a permis d'en apprendre plus sur l'utilisation de PHP et de MySQL dans le monde du web. Il était de notre sort de créer un MCD et un MLD pour notre base de données et d'en afficher son contenu sur notre site web"
         }
     },
-    "messagerie_en_ligne": {
+    "Messagerie en ligne": {
         "titre_projet": "Iris",
         "description": "Pour un projet personnel, j'ai décidé de me lancer ce défi : créer une messagerie en ligne 100% automatisée grâce à PHP et à MySQL.",
         "langage": "HTML, CSS, JavaScript, PHP, MySQL",
