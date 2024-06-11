@@ -333,6 +333,10 @@ button:hover {
     border-radius: 10px;
 }
 
+
+
+
+
 .portfolio {
     text-align: center;
     padding-top: 75px;
@@ -342,10 +346,110 @@ button:hover {
     color: #babec4;
 }
 
+.projet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3rem;
+    margin: 2rem 1rem 0 1rem;
+}
+
+.categorie {
+    position: relative;
+    border: #5263ff 2px solid;
+    border-radius: 1rem;
+    transition: 0.3s;
+    padding: 128px;
+    overflow: hidden;
+    color: #1f1f1f;
+}
+
+.categorie .text {
+    position: relative;
+    z-index: 1;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 230%;
+}
+
+.categorie:hover {
+    transform: scale(1.05, 1.05);
+}
+
+#sae.categorie::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/sae.jpeg) no-repeat center center;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: 0;
+    transition: 0.3s;
+}
+#sae.categorie:hover::before {
+    filter: blur(0);
+}
+
+#iris.categorie::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/messagerie.jpg) no-repeat center center;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: 0;
+    transition: 0.3s;
+}
+
+#iris.categorie:hover::before {
+    filter: blur(0);
+}
+
+#python.categorie::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/python.webp) no-repeat center center;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: 0;
+    transition: 0.3s;
+}
+#python.categorie:hover{
+    color: #eceefc;
+}
+#python.categorie:hover::before {
+    filter: blur(0);
+}
+
+
+
+
+
+
+
+
+
 .contact {
     text-align: center;
     padding-top: 75px;
 }
+
+
+
+
+
+
+
 
 
 
