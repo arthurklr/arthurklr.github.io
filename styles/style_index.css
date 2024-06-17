@@ -349,11 +349,12 @@ button:hover {
 
 .projet {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     grid-gap: 3rem;
-    margin: 2rem 1rem 0 1rem;
+    margin: 2rem 5rem 0 5rem;
+    z-index: -10;
 }
 
 .categorie {
@@ -377,7 +378,7 @@ button:hover {
     transform: scale(1.05, 1.05);
 }
 
-#sae.categorie::before {
+#sae105.categorie::before {
     content: "";
     position: absolute;
     top: 0;
@@ -390,7 +391,23 @@ button:hover {
     z-index: 0;
     transition: 0.3s;
 }
-#sae.categorie:hover::before {
+#sae105.categorie:hover::before {
+    filter: blur(0);
+}
+#sae203.categorie::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/sae.jpeg) no-repeat center center;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: 0;
+    transition: 0.3s;
+}
+#sae203.categorie:hover::before {
     filter: blur(0);
 }
 
@@ -450,7 +467,7 @@ button:hover {
 .form-container {
     width: 400px;
     background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+                linear-gradient(145deg, transparent 35%,#e81cff, #5263ff) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
