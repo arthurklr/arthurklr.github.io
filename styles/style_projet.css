@@ -1,14 +1,33 @@
-html{
+/* Animation pour les éléments h2 */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+p{
+    margin: 0;
 }
 
 h2 {
@@ -39,7 +58,7 @@ header {
 }
 
 .page {
-    min-height: 100vh;
+    min-height: 120vh;
     background: #1f1f1f;
     color: #fff;
     /* Assurez-vous que le texte est lisible sur un fond sombre */
@@ -72,21 +91,21 @@ header {
     gap: 20px;
 }
 
-.menu-bas>a{
+.menu-bas>a {
     transition: 0.3s;
 }
 
-.menu-bas>a:hover{
-    transform: scale(1.2,1.2);
+.menu-bas>a:hover {
+    transform: scale(1.2, 1.2);
     transition: 0.3s;
 }
 
-.project-details{
+.project-details {
     padding-top: 5rem;
     padding-left: 2rem;
 }
 
-.projet{
+.projet {
     padding-left: 7rem;
 }
 
@@ -95,7 +114,7 @@ header {
     color: #1f1f1f;
 }
 
-.rond{
+.rond {
     border: 3px #eceefc solid;
     border-radius: 50%;
     width: 60px;
@@ -103,39 +122,81 @@ header {
     position: relative;
 }
 
-.lien_croix{
+.lien_croix {
     width: 50px;
     height: 50px;
     display: block;
 }
 
-.croix{
+.croix {
     position: absolute;
     top: 45%;
     left: 19%;
 }
 
-.trait{
+.trait {
     width: 40px;
     height: 5px;
     background-color: #eceefc;
     transform: rotate(-45deg);
     position: absolute;
 }
-.trait1{
+
+.trait1 {
     width: 40px;
     height: 5px;
     background-color: #eceefc;
     transform: rotate(45deg);
 }
 
-.rond_clair{
+.rond_clair {
     border: #1f1f1f 3px solid;
     background-color: #1f1f1f;
 }
 
-.croix_clair{
+.croix_clair {
     background-color: #1f1f1f;
 
 }
 
+.project-details h2 {
+    min-height: 100vh;
+    font-size: 300px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+    display: inline-block;
+}
+
+.project-details h2 span {
+    display: inline-block;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.projet-description{
+    min-height: 100vh;
+}
+
+
+.project-details h4 {
+    overflow: hidden;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+li {
+    border: 2px solid #5263ff;
+    margin-top: 1rem;
+    padding: 16px 32px;
+    width: 60px;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+li::marker {
+    color: #1f1f1f;
+}
+
+#project-lessons{
+    max-width: 120vh;
+}
