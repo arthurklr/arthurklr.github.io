@@ -181,15 +181,16 @@ button:hover {
     min-height: 75vh;
 }
 
+.flex-about{
+    display: flex;
+}
+
 .about>h4 {
     color: #babec4;
 }
 
 .timeline {
     min-height: 25vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 2rem auto;
     gap: 3rem;
     z-index: 2;
@@ -236,18 +237,49 @@ button:hover {
 .barre-about {
     width: 150px;
     height: 10px;
+    transform: rotate(90deg);
+    margin: 6rem auto 6rem;
     background-color: #27334acc;
 }
 
 .conteneur-about {
-    background-color: #27334acc;
-    border-radius: 4rem;
-    padding: 1rem 2.25rem;
-    backdrop-filter: blur(10px);
     max-width: 50%;
     margin: 0 auto;
 }
 
+.texte-about{
+    background-color: #27334acc;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.conteneur-qualite{
+    display: flex;
+    padding-top: 2rem;
+}
+
+.qualite{
+    background-color: #F6F8FF;
+    color: #1f1f1f;
+    width: fit-content;
+    padding: 32px 64px;
+    border-radius: 3vh;
+    margin: 0 auto;
+}
+
+.conteneur-about>a>button{
+    background-color: #5263ff;
+    color: #1f1f1f;
+    font-size: 120%;
+}
+
+.conteneur-about>a>button:hover{
+    background-color: transparent;
+    color: #5263ff;
+}
 
 
 
@@ -279,68 +311,73 @@ button:hover {
     padding-top: 50px;
 }
 
-.gauche {
+.front {
     background-color: #1c2536cc;
     border-radius: 4rem;
     backdrop-filter: blur(10px);
     padding: 1rem 2.25rem;
-    width: 50%;
+    width: 40%;
+
+}
+
+.back{
+    background-color: #1c2536cc;
+    border-radius: 4rem;
+    backdrop-filter: blur(10px);
+    padding: 1rem 2.25rem;
+    width: 40%;
+}
+
+
+.logiciel{
+    background-color: #1c2536cc;
+    border-radius: 4rem;
+    backdrop-filter: blur(10px);
+    padding: 1rem 2.25rem;
+    width: 40%;
+    margin: 2rem auto;
+}
+
+.logiciel>h5{
+    font-size: 120%;
+}
+
+.front>h5{
+    font-size: 120%;
+}
+
+.back>h5{
+    font-size: 120%;
+}
+
+.logiciel-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.back-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.front-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .case {
     background-color: #27334acc;
+    width: 40%;
     border-radius: 4rem;
     padding: 1rem 2.25rem;
     backdrop-filter: blur(10px);
-    display: flex;
-    min-width: fit-content;
     gap: 10px;
     margin-top: 15px;
+    margin: 15px auto;
 }
 
 
-
-.barre {
-    height: 20px;
-    width: 100%;
-    background-color: #1f1f1f;
-    border-radius: 10px;
-}
-
-.taillephp {
-    height: 20px;
-    width: 60%;
-    background-color: #5263ff;
-    border-radius: 10px;
-}
-
-.taillesql {
-    height: 20px;
-    width: 60%;
-    background-color: #5263ff;
-    border-radius: 10px;
-}
-
-.taillehtml {
-    height: 20px;
-    width: 80%;
-    background-color: #5263ff;
-    border-radius: 10px;
-}
-
-.taillecss {
-    height: 20px;
-    width: 75%;
-    background-color: #5263ff;
-    border-radius: 10px;
-}
-
-.taillejs {
-    height: 20px;
-    width: 70%;
-    background-color: #5263ff;
-    border-radius: 10px;
-}
 
 
 
@@ -585,7 +622,7 @@ button:hover {
 .clair {
     background: #eceefc;
     color: #1f1f1f;
-}
+}  
 
 .lien_clair {
     background-color: #1f1f1f;
@@ -594,3 +631,9 @@ button:hover {
 .bouton_clair {
     color: #fff;
 }
+
+.menu-clair{
+    background-color: #dde3ee;
+    stroke: #1f1f1f;
+}
+
