@@ -16,11 +16,10 @@ fetch('json/data_about.json')
             yearElement.textContent = event.year;
             circleElement.appendChild(yearElement);
 
-            // Créer un élément img pour l'image
-            var imageElement = document.createElement('img');
-            imageElement.src = event.content.image;
-            imageElement.alt = '';
-            circleElement.appendChild(imageElement);
+            // Créer un élément div pour le SVG
+            var svgElement = document.createElement('div');
+            svgElement.innerHTML = event.content.image;
+            circleElement.appendChild(svgElement);
 
             // Créer un élément p pour le texte
             var textElement = document.createElement('p');
@@ -40,5 +39,3 @@ fetch('json/data_about.json')
 
     })
     .catch(error => console.error('Erreur lors du chargement des données JSON :', error));
-
-
