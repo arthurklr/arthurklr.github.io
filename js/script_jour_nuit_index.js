@@ -1,33 +1,46 @@
 document.addEventListener('DOMContentLoaded', function () {
     const icon = document.querySelector('.icon');
-    const page = document.querySelector('.page');
+    const pages = document.querySelectorAll('.page');
     const header = document.querySelector('header')
-    const home = document.querySelector('.home')
-    const lien = document.querySelector('.block')
-    const bouton = document.querySelectorAll('.bouton>a>button')
+    const h2 = document.querySelectorAll('h2')
+    const h4 = document.querySelectorAll('h4')
 
     icon.addEventListener('click', function () {
         icon.classList.toggle('nuit');
         icon.classList.toggle('jour');
         if (icon.classList.contains('jour')) {
-            header.classList.add('clair')
-            page.classList.add('clair');
-            home.classList.add('clair')
-            lien.classList.add('lien_clair')
-            bouton.classList.add('bouton_clair')
+            pages.forEach(function(page) {
+                page.classList.add('clair');
+            });
+            h2.forEach(function(h2){
+                h2.classList.add('clair')
+            })
+            h4.forEach(function(h4){
+                h4.classList.add('clair')
+            })
+            header.classList.add('clair');
         } else {
-            page.classList.remove('clair');
+            pages.forEach(function(page) {
+                page.classList.remove('clair');
+            });
+            h2.forEach(function(h2){
+                h2.classList.remove('clair')
+            })
+            h4.forEach(function(h4){
+                h4.classList.remove('clair')
+            })
             header.classList.remove('clair')
-            home.classList.remove('clair')
-            lien.classList.remove('lien_clair')
-            bouton.classList.remove('bouton_clair')
         }
     });
 
     // Vérifier l'état initial de l'icône pour définir l'état de la page
     if (icon.classList.contains('jour')) {
-        page.classList.add('clair');
+        pages.forEach(function(page) {
+            page.classList.add('clair');
+        });
     } else {
-        page.classList.remove('clair');
+        pages.forEach(function(page) {
+            page.classList.remove('clair');
+        });
     }
 });
