@@ -139,7 +139,7 @@ button {
     border: #5263ff 2px solid;
     padding: 24px 48px;
     border-radius: 20px;
-    background-color: #1f1f1f;
+    background-color: transparent;
     color: #5263ff;
     transition: 0.3s;
     cursor: pointer;
