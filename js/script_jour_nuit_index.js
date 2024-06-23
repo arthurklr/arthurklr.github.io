@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector('header')
     const h2 = document.querySelectorAll('h2')
     const h4 = document.querySelectorAll('h4')
+    const menu = document.querySelector('.menu-bas')
+    const menu_bouton = document.querySelectorAll('.element>svg')
+
 
     icon.addEventListener('click', function () {
         icon.classList.toggle('nuit');
@@ -17,8 +20,13 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             h4.forEach(function(h4){
                 h4.classList.add('clair')
+            });
+            menu_bouton.forEach(function(menu_bouton){
+                menu_bouton.classList.add('menu-clair')
             })
             header.classList.add('clair');
+            menu.classList.add('menu-clair')
+
         } else {
             pages.forEach(function(page) {
                 page.classList.remove('clair');
@@ -29,7 +37,11 @@ document.addEventListener('DOMContentLoaded', function () {
             h4.forEach(function(h4){
                 h4.classList.remove('clair')
             })
+            menu_bouton.forEach(function(menu_bouton){
+                menu_bouton.classList.remove('menu-clair')
+            })
             header.classList.remove('clair')
+            menu.classList.remove('menu-clair')
         }
     });
 
