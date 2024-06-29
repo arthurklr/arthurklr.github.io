@@ -152,7 +152,7 @@ button {
 }
 
 .bouton>a:last-child>button:hover {
-    background-color: #1f1f1f;
+    background-color:transparent;
     color: #5263ff;
 }
 
@@ -181,10 +181,6 @@ button:hover {
     min-height: 75vh;
 }
 
-.flex-about{
-    display: flex;
-}
-
 .about>h4 {
     color: #babec4;
 }
@@ -194,6 +190,9 @@ button:hover {
     margin: 2rem auto;
     gap: 3rem;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .cercle-about {
@@ -237,8 +236,6 @@ button:hover {
 .barre-about {
     width: 150px;
     height: 10px;
-    transform: rotate(90deg);
-    margin: 6rem auto 6rem;
     background-color: #27334acc;
 }
 
@@ -633,7 +630,18 @@ button:hover {
 }
 
 .menu-clair{
-    background-color: #dde3ee;
+    background-color: #ced6e1;
     stroke: #1f1f1f;
 }
+
+.element-clair{
+    background-color: #dde3ee;
+    backdrop-filter: blur(10px);
+}
+
+.texte-fonce{
+    background-color: #333333;
+    color: #dde3ee;
+}
+
 
