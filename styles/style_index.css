@@ -679,6 +679,16 @@ button:hover {
         border-radius: 10px;
     }
 
+    .cercle-about>div>svg{
+        width: 120%;
+    }
+    .cercle-about>p{
+        font-size:120%;
+    }
+    .cercle-about>h3{
+        font-size:120%;
+    }
+
 
     .cercle-about>div>svg{
         width: 50%;
@@ -746,6 +756,7 @@ button:hover {
     .projet{
         display: block;
         width: 80%;
+        margin: 0 auto;
     }
 
     .projet>a>div{
@@ -759,7 +770,7 @@ button:hover {
 
 @media only screen and (max-width: 480px) {
     .page{
-        width: 600px;
+        width: 480px;
     }
 
     .cercle-about{
@@ -819,6 +830,6 @@ button:hover {
     }
 
     .menu-bas{
-        left: 55%;
+        left: 50%;
     }
 }
