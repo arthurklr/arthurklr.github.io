@@ -1,66 +1,3 @@
-@keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(-60vh);
-        transform: translateX(-60vh);
-        display: none;
-    }
-
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-@keyframes slide-left {
-    0% {
-      -webkit-transform: translateX(60vh);
-              transform: translateX(60vh);
-              display: none;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-  }
-
-  @keyframes slide-fwd-top {
-    0% {
-      -webkit-transform: translateZ(0) translateY(-100px);
-              transform: translateZ(0) translateY(-100px);
-              display: none;
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(0);
-              transform: translateZ(160px) translateY(0);
-    }
-  }
-
-  @keyframes opacite{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100;
-    }
-}
-  
-
-.slide-right {
-    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-left {
-	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-fwd-top {
-	-webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -716,4 +653,172 @@ button:hover {
 .texte-fonce {
     background-color: #333333;
     color: #dde3ee;
+}
+
+
+
+
+
+/* Responsivité */
+@media only screen and (max-width: 1200px) {
+    .page{
+        width: 1200px;
+    }
+
+    .timeline{
+        display: block;
+    }
+
+    .barre-about{
+        margin: 6rem auto;
+        transform: rotate(90deg);
+    }
+
+    .cercle-about{
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+
+    .cercle-about>div>svg{
+        width: 50%;
+    }
+    .cercle-about>p{
+        font-size:80%;
+    }
+    .cercle-about>h3{
+        font-size:80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page{
+        width: 768px;
+    }
+
+    .cercle-about{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cercle-about>div>svg{
+        width: 70%;
+    }
+    .cercle-about>p{
+        font-size:100%;
+    }
+    .cercle-about>h3{
+        font-size:100%;
+    }
+    
+    .conteneur-qualite{
+        display: block;
+    }
+
+    .qualite{
+        margin-top: 2rem;
+    }
+
+    .case{
+        width: 8%;
+    }
+
+    .case>svg{
+        width: 600%;
+    }
+
+
+    .flex{
+        display: block;
+    }
+
+    .front{
+        margin: 0 auto;
+    }
+
+    .back{
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .projet{
+        display: block;
+        width: 80%;
+    }
+
+    .projet>a>div{
+        margin-top: 2rem;
+    }
+
+    .menu-bas{
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page{
+        width: 600px;
+    }
+
+    .cercle-about{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cercle-about>div>svg{
+        width: 50%;
+    }
+    .cercle-about>p{
+        font-size:80%;
+    }
+    .cercle-about>h3{
+        font-size:80%;
+    }
+    
+    .conteneur-qualite{
+        display: block;
+    }
+
+    .qualite{
+        margin-top: 2rem;
+    }
+
+    .case{
+        width: 8%;
+    }
+
+    .case>svg{
+        width: 600%;
+    }
+
+
+    .flex{
+        display: block;
+    }
+
+    .front{
+        margin: 0 auto;
+    }
+
+    .back{
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .projet{
+        display: block;
+        width: 80%;
+    }
+
+    .projet>a>div{
+        margin-top: 2rem;
+    }
+
+    .menu-bas{
+        left: 55%;
+    }
 }
