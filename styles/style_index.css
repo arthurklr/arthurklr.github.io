@@ -15,7 +15,7 @@ a {
 h2 {
     margin: 0;
     animation: 2s opacite;
-    animation-delay:100ms;
+    animation-delay: 100ms;
 }
 
 h3 {
@@ -661,175 +661,186 @@ button:hover {
 
 /* Responsivité */
 @media only screen and (max-width: 1200px) {
-    .page{
+    .page {
         width: 1200px;
     }
 
-    .timeline{
+    .timeline {
         display: block;
     }
 
-    .barre-about{
+    .barre-about {
         margin: 6rem auto;
         transform: rotate(90deg);
     }
 
-    .cercle-about{
+    .cercle-about {
         margin: 0 auto;
         border-radius: 10px;
     }
 
-    .cercle-about>div>svg{
+    .cercle-about>div>svg {
         width: 120%;
     }
-    .cercle-about>p{
-        font-size:120%;
+
+    .cercle-about>p {
+        font-size: 120%;
     }
-    .cercle-about>h3{
-        font-size:120%;
+
+    .cercle-about>h3 {
+        font-size: 120%;
     }
 
 
-    .cercle-about>div>svg{
+    .cercle-about>div>svg {
         width: 50%;
     }
-    .cercle-about>p{
-        font-size:80%;
+
+    .cercle-about>p {
+        font-size: 80%;
     }
-    .cercle-about>h3{
-        font-size:80%;
+
+    .cercle-about>h3 {
+        font-size: 80%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .page{
+    .page {
         width: 768px;
     }
 
-    .cercle-about{
+    .cercle-about {
         width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .cercle-about>div>svg{
+
+    .cercle-about>div>svg {
         width: 70%;
     }
-    .cercle-about>p{
-        font-size:100%;
+
+    .cercle-about>p {
+        font-size: 100%;
     }
-    .cercle-about>h3{
-        font-size:100%;
+
+    .cercle-about>h3 {
+        font-size: 100%;
     }
-    
-    .conteneur-qualite{
+
+    .conteneur-qualite {
         display: block;
     }
 
-    .qualite{
+    .qualite {
         margin-top: 2rem;
     }
 
-    .case{
+    .case {
         width: 8%;
     }
 
-    .case>svg{
+    .case>svg {
         width: 600%;
     }
 
 
-    .flex{
+    .flex {
         display: block;
     }
 
-    .front{
+    .front {
         margin: 0 auto;
     }
 
-    .back{
+    .back {
         margin: 0 auto;
         margin-top: 2rem;
     }
 
-    .projet{
+    .projet {
         display: block;
         width: 80%;
         margin: 0 auto;
     }
 
-    .projet>a>div{
+    .projet>a>div {
         margin-top: 2rem;
     }
 
-    .menu-bas{
+    .menu-bas {
         left: 50%;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .page{
+    .page {
         width: 480px;
     }
 
-    .cercle-about{
+    .cercle-about {
         width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .cercle-about>div>svg{
+
+    .cercle-about>div>svg {
         width: 50%;
     }
-    .cercle-about>p{
-        font-size:80%;
+
+    .cercle-about>p {
+        font-size: 80%;
     }
-    .cercle-about>h3{
-        font-size:80%;
+
+    .cercle-about>h3 {
+        font-size: 80%;
     }
-    
-    .conteneur-qualite{
+
+    .conteneur-qualite {
         display: block;
     }
 
-    .qualite{
+    .qualite {
         margin-top: 2rem;
     }
 
-    .case{
+
+    .case {
         width: 8%;
     }
 
-    .case>svg{
+    .case>svg {
         width: 600%;
     }
 
 
-    .flex{
+    .flex {
         display: block;
     }
 
-    .front{
+    .front {
         margin: 0 auto;
     }
 
-    .back{
+    .back {
         margin: 0 auto;
         margin-top: 2rem;
     }
 
-    .projet{
+    .projet {
         display: block;
         width: 80%;
     }
 
-    .projet>a>div{
+    .projet>a>div {
         margin-top: 2rem;
     }
 
-    .menu-bas{
+    .menu-bas {
         left: 50%;
     }
 }
