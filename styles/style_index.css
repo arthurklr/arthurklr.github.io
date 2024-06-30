@@ -662,7 +662,10 @@ button:hover {
 /* Responsivité */
 @media only screen and (max-width: 1200px) {
     .page {
-        width: 1200px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        overflow-x: hidden; /* Empêche le défilement horizontal */
     }
 
     .timeline {
@@ -691,7 +694,6 @@ button:hover {
         font-size: 120%;
     }
 
-
     .cercle-about>div>svg {
         width: 50%;
     }
@@ -707,7 +709,10 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
     .page {
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        overflow-x: hidden; /* Empêche le défilement horizontal */
     }
 
     .cercle-about {
@@ -739,13 +744,13 @@ button:hover {
     }
 
     .case {
-        width: 8%;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .case>svg {
-        width: 600%;
+        width: 100%;
     }
-
 
     .flex {
         display: block;
@@ -762,7 +767,7 @@ button:hover {
 
     .projet {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -772,16 +777,20 @@ button:hover {
 
     .menu-bas {
         left: 50%;
+        transform: translateX(-50%);
     }
 }
 
 @media only screen and (max-width: 480px) {
     .page {
-        width: 480px;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        overflow-x: hidden; /* Empêche le défilement horizontal */
     }
 
     .cercle-about {
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -808,15 +817,14 @@ button:hover {
         margin-top: 2rem;
     }
 
-
     .case {
-        width: 8%;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .case>svg {
-        width: 600%;
+        width: 100%;
     }
-
 
     .flex {
         display: block;
@@ -833,7 +841,8 @@ button:hover {
 
     .projet {
         display: block;
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .projet>a>div {
@@ -842,5 +851,148 @@ button:hover {
 
     .menu-bas {
         left: 50%;
+        transform: translateX(-50%);
     }
 }
+
+/* Pour les très petits téléphones */
+@media only screen and (max-width: 320px) {
+    .page {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        overflow-x: hidden; /* Empêche le défilement horizontal */
+    }
+
+    header {
+        padding: 4px 8px;
+    }
+
+    .conteneur-bas {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+    }
+
+    .block {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu-bas {
+        padding: 0.5rem 1rem;
+        gap: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home {
+        padding-top: 50px;
+    }
+
+    .bouton {
+        padding: 20px;
+    }
+
+    button {
+        margin: 10px;
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    #photo {
+        width: 200px;
+    }
+
+    .about {
+        padding-top: 50px;
+    }
+
+    .timeline {
+        display: block;
+        padding: 0 10px;
+    }
+
+    .cercle-about {
+        width: 100%;
+    }
+
+    .cercle-about img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .conteneur-about {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .texte-about {
+        padding: 0.5rem 1rem;
+        margin-top: 1rem;
+    }
+
+    .conteneur-qualite {
+        display: block;
+        padding-top: 1rem;
+    }
+
+    .qualite {
+        width: 100%;
+        padding: 16px 32px;
+        margin-top: 1rem;
+    }
+
+    .competence {
+        padding-top: 50px;
+    }
+
+    .flex {
+        display: block;
+        padding-top: 25px;
+    }
+
+    .front, .back, .logiciel {
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+
+    .logiciel {
+        margin: 1rem auto;
+    }
+
+    .logiciel-case, .back-case, .front-case {
+        grid-template-columns: 1fr;
+    }
+
+    .case {
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+
+    .portfolio {
+        padding-top: 50px;
+    }
+
+    .projet {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .categorie {
+        padding: 64px;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .form-container {
+        width: 90%;
+        padding: 16px 12px;
+    }
+}
+
+
