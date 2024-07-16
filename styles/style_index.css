@@ -637,7 +637,7 @@ button:hover {
 }
 
 .bouton_clair {
-    color: #fff;
+    color: #ced6e1;
 }
 
 .menu-clair {
@@ -863,6 +863,7 @@ button:hover {
         margin: 0 auto;
         overflow-x: hidden; /* Empêche le défilement horizontal */
     }
+    
 
     header {
         padding: 4px 8px;
