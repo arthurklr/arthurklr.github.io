@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const cercle = document.querySelectorAll('.cercle-about');
     const texte = document.querySelector('.texte-about');
     const qualite = document.querySelectorAll('.qualite');
+    const propos = document.querySelector('#propos');
 
 
     icon.addEventListener('click', function () {
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
             front.classList.add('menu-clair');
             back.classList.add('menu-clair');
             texte.classList.add('menu-clair');
-
+            propos.classList.add('bouton_clair')
         } else {
             pages.forEach(function (page) {
                 page.classList.remove('clair');
@@ -79,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
             front.classList.remove('menu-clair');
             back.classList.remove('menu-clair');
             texte.classList.remove('menu-clair');
+            propos.classList.remove('bouton_clair')
         }
     });
 
