@@ -639,6 +639,10 @@ button:hover {
 .bouton_clair {
     color: #ced6e1;
 }
+.bouton_clair:hover{
+    background-color: transparent;
+    color:#1f1f1f
+}
 
 .menu-clair {
     background-color: #ced6e1;
