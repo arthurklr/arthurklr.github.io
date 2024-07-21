@@ -1,14 +1,14 @@
 [
     {
-        "id": "sae105",
-        "name": "SAÉ 1.05",
+        "id": "projets1",
+        "name": "Projet S1",
         "description": "En tant qu’intégrateurs ou développeurs juniors dans une agence Web, j'ai dû mener un travail de conception, d’intégration et de développement des vues d’un site Web. Le cahier des charges comprend la description des éléments statiques de l’application et un jeu de données structurées représentant un échantillon des contenus à mettre en ligne.",
         "languages": ["HTML", "CSS", "JavaScript"],
         "lessonsLearned": "Cette SAÉ m'a permis d'apprendre l'automatisation de la création de pages d'un site web grâce à JavaScript. En effet, les données étaient présentes dans un fichier Json, et nous devions créer des pages fiables et automatiques avec ces données."
     },
     {
-        "id": "sae203",
-        "name": "SAÉ 2.03",
+        "id": "projets2",
+        "name": "Projet S2",
         "description": "En tant que développeurs web juniors, j'ai dû concevoir un site web relié à une base de données comme par exemple un catalogue de produits organisé par catégories ou mots-clés. Ce site doit présenter de manière lisible et ergonomique les données stockées et permettre de naviguer au sein de celles-ci. Il doit permettre aux utilisateurs d’ajouter des contenus par exemple en postant des commentaires ou en réservant un produit.",
         "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "lessonsLearned": "Cette SAÉ m'a permis d'en apprendre plus sur l'utilisation de PHP et de MySQL dans le monde du web. Il était de notre sort de créer un MCD et un MLD pour notre base de données et d'en afficher son contenu sur notre site web"
@@ -26,5 +26,19 @@
         "description": "En autodidacte, je me suis formé au langage Python. Grâce à celui-ci, j'ai pu réaliser quelque problèmes, disponibles en Open-Source.",
         "languages": ["Python"],
         "lessonsLearned": "Ce projet m'a permis de commencer mon apprentissage dans un nouveau langage : Python."
+    },
+    {
+        "id": "cinema",
+        "name": "Cinéma",
+        "description": "Avec l'aide du WebMaster et la participation du cinéma, je suis actuellement entrain de refaire l'interface UX et UI, donc le front-end de leur site internet.",
+        "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "lessonsLearned": "Ce projet m'a permis d'effectuer une prmière approche professionnel de ce qu'est une refont total d'un site internet, en utilisant de nouvelle technologie et en ne touchant aucunement au back-end du site. Simplement une refont graphique, en gardant les mêmes fonctionnalités côtés serveurs."
+    },
+    {
+        "id": "portfolio",
+        "name": "Portfolio",
+        "description": "Ce portfolio est un concentré de chose que je veux faire, il contient un front-end et un back-end. Tous deux ont été miticuleusement réalisé personnellement.",
+        "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "GSAP"],
+        "lessonsLearned": "Ce projet m'a premièrement permis de construire ma présence en ligne, mais aussi de me familiarisé toujours plus avec des Framework JS comme GASP, ou encore d'apprendre toujours plus de méthodes de code front et back."
     }
 ]
