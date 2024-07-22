@@ -31,7 +31,7 @@
         "id": "cinema",
         "name": "Cinéma",
         "description": "Avec l'aide du WebMaster et la participation du cinéma, je suis actuellement entrain de refaire l'interface UX et UI, donc le front-end de leur site internet.",
-        "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "languages": ["React", "JavaScript", "PHP", "MySQL"],
         "lessonsLearned": "Ce projet m'a permis d'effectuer une prmière approche professionnel de ce qu'est une refont total d'un site internet, en utilisant de nouvelle technologie et en ne touchant aucunement au back-end du site. Simplement une refont graphique, en gardant les mêmes fonctionnalités côtés serveurs."
     },
     {
