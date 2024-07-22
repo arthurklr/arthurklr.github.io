@@ -32,13 +32,13 @@
         "name": "Cinéma",
         "description": "Avec l'aide du WebMaster et la participation du cinéma, je suis actuellement entrain de refaire l'interface UX et UI, donc le front-end de leur site internet.",
         "languages": ["React", "JavaScript", "PHP", "MySQL"],
-        "lessonsLearned": "Ce projet m'a permis d'effectuer une prmière approche professionnel de ce qu'est une refont total d'un site internet, en utilisant de nouvelle technologie et en ne touchant aucunement au back-end du site. Simplement une refont graphique, en gardant les mêmes fonctionnalités côtés serveurs."
+        "lessonsLearned": "Ce projet m'a permis d'effectuer une première approche professionnel de ce qu'est une refonte totale d'un site internet, en utilisant de nouvelles technologies et en ne touchant aucunement au back-end du site. Simplement une refonte graphique, en gardant les mêmes fonctionnalités côté serveur."
     },
     {
         "id": "portfolio",
         "name": "Portfolio",
-        "description": "Ce portfolio est un concentré de chose que je veux faire, il contient un front-end et un back-end. Tous deux ont été miticuleusement réalisé personnellement.",
+        "description": "Ce portfolio est un concentré de chose que je veux faire, il contient un front-end et un back-end. Tous deux ont été méticuleusement réalisés personnellement.",
         "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "GSAP"],
-        "lessonsLearned": "Ce projet m'a premièrement permis de construire ma présence en ligne, mais aussi de me familiarisé toujours plus avec des Framework JS comme GASP, ou encore d'apprendre toujours plus de méthodes de code front et back."
+        "lessonsLearned": "Ce projet m'a premièrement permis de construire ma présence en ligne, mais aussi de me familiariser toujours plus avec des frameworks JS comme GSAP, ou encore d'apprendre toujours plus de méthodes de code front et back."
     }
 ]
